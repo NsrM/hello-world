@@ -1,0 +1,68 @@
+import java.io.*;
+import java.util.Map;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+
+        System.out.println("Hello World");
+        Employee e=new Employee();
+
+        e.newEmployee(101,"naseer",50000);
+        e.newEmployee(102,"chaitanya",50000);
+        e.newEmployee(103,"triraj",60000);
+
+    }
+}
+
+class Employee{
+
+    public void newEmployee(int empid,String ename,int esal) throws IOException {
+
+        PrintWriter pw = null;
+        try {
+            pw = new PrintWriter(new File("/home/naseer/Java/Projects/IntelliJIdeaProjects/src/com/company/employee.csv"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        String filepath="/home/naseer/Java/Projects/IntelliJIdeaProjects/src/com/company/employee.csv";
+        RandomAccessFile rmfile=null;
+        try {
+             rmfile = new RandomAccessFile(filepath,"rw");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try{
+            rmfile.seek(rmfile.length());
+            System.out.println(rmfile.length());
+            System.out.println(rmfile.getFilePointer());
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        StringBuilder sb = new StringBuilder();
+
+        sb.append(empid);
+        sb.append(",");
+        sb.append(ename);
+        sb.append(",");
+        sb.append(esal);
+        sb.append('\n');
+        rmfile.writeBytes(String.valueOf(sb));
+        System.out.println(sb);
+
+        //pw.write(sb.toString());
+        //pw.close();
+
+    }
+    public void displayEmployees(){
+
+    }
+    public void DelEmployee(int empid){
+
+    }
+
+}
