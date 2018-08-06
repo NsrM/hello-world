@@ -1,0 +1,33 @@
+// Answer to https://stackoverflow.com/questions/51701318/character-reversal-without-reversing-numbers#51701318
+
+class TestClass {
+    public static void main(String args[] ) throws Exception {
+        
+        int i,j;
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+       char str[]=br.readLine().toCharArray();
+        StringBuilder charArr = new StringBuilder();
+        char []resArr=new char[str.length];
+        HashMap<Integer,Character> charHash=new HashMap<Integer,Character>();
+        j=0;
+        for(i=0;i<str.length;i++) {
+        	if(Character.isLetter(str[i])) {
+        		
+        		charArr.append((str[i]));
+        		charHash.put(i, str[i]);
+        	}
+        }
+        
+        String reverse1 = new StringBuilder(new String(charArr)).reverse().toString();
+        j=0;
+        for(i=0;i<str.length;i++) {
+        	if(Character.isDigit(str[i])) {
+        		resArr[i]=str[i];
+        	}
+        	else {
+        		resArr[i]=reverse1.charAt(j++);
+        	}
+        }
+        System.out.println(resArr);
+    }
+}
