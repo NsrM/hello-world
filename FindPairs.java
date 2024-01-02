@@ -136,3 +136,23 @@ public class Main {
  
     }
 }
+
+// C++ Solution, Its a further better solution with better time complexity 
+// https://www.hackerearth.com/submission/88978630/
+#include <bits/stdc++.h>
+using namespace std;
+const int NMAX = 5e5, AMAX = 1e6, UMAX = NMAX+AMAX;
+int A[NMAX], C[UMAX], N, M, offset;
+int64_t ans;
+inline auto next_int(){ int num; cin >> num; return num; }
+inline auto nP2(int64_t n){ return n*(n-1); }
+ 
+int main() {
+    cin.tie(nullptr)->sync_with_stdio(false);
+    cin >> N, M = N-1, offset = M-1, generate(A,A+N,next_int);
+    for (int i = 0; i < N; ++i)
+        ++C[offset+A[i]-i];
+    for (int i = 0; i < UMAX; ++i)
+        if (C[i] > 1)
+            ans += nP2(C[i]);
+    cout << ans; }
