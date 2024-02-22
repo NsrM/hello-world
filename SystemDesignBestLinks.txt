@@ -1,0 +1,52 @@
+Best Links for System Design concepts
+
+ 
+1) Scalability: https://lnkd.in/gx-sPXZm
+
+2) Horizontal vs Vertical Scaling: https://lnkd.in/gAH2e9du
+
+3) Latency vs Throughput: https://lnkd.in/g_amhAtN
+
+4) Load Balancing: https://lnkd.in/gQaa8sXK
+
+5) Caching: https://lnkd.in/gC9piQbJ
+
+6) ACID Transactions: https://lnkd.in/gMe2JqaF
+
+7) SQL vs NoSQL: https://lnkd.in/g3WC_yxn
+
+8) Database Indexes: https://lnkd.in/gCeshYVt
+
+9) Database Sharding: https://lnkd.in/gMqqc6x9
+
+10) Content Delivery Network (CDN): https://lnkd.in/gjJrEJeH
+
+11) Strong vs Eventual Consistency: https://lnkd.in/gJ-uXQXZ
+
+12) Batch Processing vs Stream Processing: https://lnkd.in/g4_MzM4s
+
+13) Concurrency vs Parallelism: https://lnkd.in/gSKUm2Nh
+
+14) Synchronous vs. asynchronous communications: https://lnkd.in/gC3F2nvr
+
+15) Rest vs RPC: https://lnkd.in/gN__zcAB
+
+16) CAP Theorem: https://lnkd.in/g3hmVamx
+
+17) Reverse Proxy: https://lnkd.in/gFwWFDu8
+
+18) Domain Name System (DNS): https://lnkd.in/gkMcZW8V
+
+19) Rate Limiting: https://lnkd.in/gWsTDR3m
+
+20) Redundancy and Replication: https://lnkd.in/gvwQGEiP
+
+21) Fault Tolerance: https://lnkd.in/dVJ6n3wA
+
+22) Failover: https://lnkd.in/dihZ-cEG
+
+23) WebSockets: https://lnkd.in/g76Gv2KQ
+
+24) Microservices Architecture: https://lnkd.in/gFXUrz_T
+
+25) API Design: https://lnkd.in/ghYzrr8q
