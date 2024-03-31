@@ -1,0 +1,70 @@
+The biggest collection of 63 System Design Interview Questions categorised by Companies .
+
+Google system design interview questions
+1. Design Google Search
+2. Design Spotify
+3. Design Telegram
+4. Design an online booking system for a restaurant
+5. Design Twitter
+6. Design an autocomplete feature with an efficient data structure
+7. Design a web cache
+8. Design Google Drive
+9. Design and implement statistics for a calendar
+10. Design Google Maps
+11. Design a news front page with source aggregation across newspapers
+12. Design Google Photos
+13. Design a task scheduling feature
+14. Design YouTube search
+15. Design a ticketing platform
+16. Design an elevator
+17. Design a Boggle solver
+18. How would you design a system for a robot to learn the layout of a room and traverse it?
+19. Design a distributed ID generation system
+20. How would you deploy a solution for cloud computing to build in redundancy for the compute cluster?
+21. Design the server infrastructure for GMail
+
+Facebook system design interview questions
+1. How would you design Instagram / Facebook / Twitter?
+2. Design a live commenting system for posts
+3. Design WhatsApp / Facebook Messenger
+4. Design Facebook status search
+5. Design an online collaborative editing tool
+6. How would you design an autocomplete service for a search engine?
+7. Design a travel booking system for Facebook users
+8. Design Instagram Stories
+9. How would you build Minesweeper?
+10. Design a system to prevent ads from foreign actors from interfering in domestic politics
+11. Design a distributed botnet
+12. Design a video upload and sharing app
+13. Design the API layer for Facebook chat
+14. How would you use a load balancer for memcache servers?
+15. How would you architect the Facebook newsfeed?
+16. Implement a typeahead feature
+
+Amazon system design interview questions
+1. How would you design Twitter / Instagram / Facebook?
+2. Design Snake / Chess / Tic-Tac-Toe / Poker / Boggle
+3. Design a parking lot
+4. Design a phone billing system
+5. Design a TinyURL service
+6. Design an API that would take and organize order events from a web store
+7. Design an elevator
+8. Design a file system
+9. Design a product recommendation system based on a user's purchase history
+10. How would you design an electronic voting system?
+11. Design a deck of cards
+12. Design a system to optimally fill a truck
+13. Design a warehouse system for Amazon
+14. Design an online poker game
+15. Design a parking payment system
+16. Design a system to interview candidates
+17. Design a search engine autocomplete
+18. Design an airport
+19. Design the Prime Video home page
+20. Design a registration system for a restaurant
+21. Design a food delivery app at a global scale
+22. Design a Dropbox service
+23. Design an inventory system
+24. Design a news website
+25. Design a shopping cart system
+26. Design a system to find friends on social media
