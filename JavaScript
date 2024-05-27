@@ -1,0 +1,7 @@
+JavaScript Interview Resources
+https://anywhere.epam.com/en/blog/senior-javascript-developer-interview-questions
+
+
+JavaScript Internals Resources(NodeJs etc)
+Below Link very clearly explains Node JS Event Loop Work flow
+https://www.nextgenerationautomation.com/post/understand-node-js-single-thread-event-loop-work-flow#:~:text=Why%20it%20got%20this%20name,Node%20JS%20Platform%20Processing%20Model.
